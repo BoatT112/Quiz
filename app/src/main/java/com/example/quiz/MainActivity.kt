@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         var a = ""
 
         radioGroup.setOnCheckedChangeListener { group, i ->
-            if (radioButton2.isChecked) {
+            if (radioButton.isChecked) {
                 a = "ถูกต้อง"
             } else {
                 a = "ไม่ถูกต้อง"
